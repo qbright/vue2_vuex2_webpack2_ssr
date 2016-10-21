@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>vue2 + webpack2 + ssr</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+   <link rel="stylesheet" href="/dist/styles.css">
+  </head>
+  <body>
+    <div id="app" server-rendered="true"><div class="c">
+        this is the App.vue Component
+        <div class="a"> Click me! Change the &#x27;a&#x27; Value</div> <div class="b"> the &#x27;a&#x27; value is 11</div> <div class="d" data-v-e6efd4e8><div data-v-e6efd4e8>this is the List.vue component</div> <div class="e" data-v-e6efd4e8>the list length is : 9</div> <div data-v-e6efd4e8><div class="btn" data-v-e6efd4e8>click to replace list after 1s </div> <div class="btn" data-v-e6efd4e8>click to add item</div></div> <ul data-v-e6efd4e8><li data-v-e6efd4e8>1</li><li data-v-e6efd4e8>23</li><li data-v-e6efd4e8>4</li><li data-v-e6efd4e8>5</li><li data-v-e6efd4e8>6</li><li data-v-e6efd4e8>7</li><li data-v-e6efd4e8>7</li><li data-v-e6efd4e8>8</li><li data-v-e6efd4e8>8</li></ul></div></div></div>
+    <script src="/dist/client-vendor-bundle.js"></script>
+    <script src="/dist/client-bundle.js"></script>
+  </body>
+</html>
